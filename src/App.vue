@@ -91,7 +91,7 @@ export default {
   }
 
   .defaultColor {
-    color: #16C294;
+    color: #fff;
   }
 
 </style>

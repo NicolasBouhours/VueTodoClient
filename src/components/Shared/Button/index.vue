@@ -1,4 +1,4 @@
-<template>
+<template lang="html">
   <button :class="buttonClass" :disabled="disabled">
     <slot></slot>
   </button>
@@ -35,7 +35,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 
   .btn {
     display: inline-block;
@@ -69,7 +69,7 @@ export default {
   .btn-sm {
     padding: 1px 7px;
     font-size: 12px;
-    border-radius: 3px;
+    border-radius: 3;
   }
 
   .btn-primary {
