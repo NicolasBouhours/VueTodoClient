@@ -12,15 +12,23 @@ const router = new VueRouter({
   mode: 'history',
   routes: [{
     path: '/',
-    component: require('./components/Accueil'),
+    component: require('./components/Home'),
     name: 'accueil'
   }, {
-    path: '/hello',
-    component: resolve => require(['./components/Hello'], resolve),
-    name: 'hello'
+    path: '/register',
+    component: require('./components/Register'),
+    name: 'register'
+  }, {
+    path: '/ui',
+    component: require('./components/UI'),
+    name: 'ui'
+  }, {
+    path: '/login',
+    component: require('./components/Login'),
+    name: 'login'
   }, {
     path: '/todos',
-    component: require('./components/Todo/Todos'),
+    component: resolve => require(['./components/Todo/Todos'], resolve),
     name: 'todos'
   }, {
     path: '*',
