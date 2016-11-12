@@ -20,7 +20,7 @@ const router = new VueRouter({
     name: 'hello'
   }, {
     path: '/todos',
-    component: require('./components/Todos'),
+    component: require('./components/Todo/Todos'),
     name: 'todos'
   }, {
     path: '*',

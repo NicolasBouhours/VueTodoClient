@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Todos from './components/Todos'
+import Todos from './components/Todo/Todos'
 
 export default {
   name: 'app',

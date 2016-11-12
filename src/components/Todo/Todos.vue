@@ -35,7 +35,7 @@
 <script>
 import Vue from 'vue'
 import Vuex from 'vuex'
-import store from './TodosStore'
+import store from '../../store/TodosStore'
 
 global.v = Vuex
 

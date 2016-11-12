@@ -1,6 +1,6 @@
 import Vuex from 'vuex'
 
-import api from '../api/resources'
+import api from '../api'
 
 const state = {
   todos: [{
@@ -78,6 +78,7 @@ const actions = {
   },
   getTodos: (store, context) => {
     api.getTodos().then((response) => {
+      console.log('response todos')
       store.commit('GET_TODOS', response.body)
     })
   }
