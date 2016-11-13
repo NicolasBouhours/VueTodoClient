@@ -21,4 +21,13 @@ export default {
 
 <style src="../node_modules/bulma/css/bulma.css"></style>
 <style>
+  html {
+    overflow-y: auto;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    background-color: white;
+  }
 </style>
