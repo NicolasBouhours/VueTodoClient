@@ -18,8 +18,8 @@
                   <input class="input" type="password" placeholder="●●●●●●●">
                 </p>
                 <hr>
-                <p class="control">
-                  <button class="button is-primary">Se connecter</button>
+                <p class="control columns">
+                  <button id="btnLogin" class="button is-primary column is-6 is-offset-3">Se connecter</button>
                 </p>
               </div>
               <p class="has-text-centered">
@@ -40,4 +40,7 @@ export default {
 </script>
 
 <style>
+  #btnLogin {
+    line-height: 14px;
+  }
 </style>
