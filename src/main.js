@@ -19,9 +19,9 @@ const router = new VueRouter({
     component: require('./components/Register'),
     name: 'register'
   }, {
-    path: '/ui',
-    component: require('./components/UI'),
-    name: 'ui'
+    path: '/board',
+    component: require('./components/Board'),
+    name: 'board'
   }, {
     path: '/login',
     component: require('./components/Login'),

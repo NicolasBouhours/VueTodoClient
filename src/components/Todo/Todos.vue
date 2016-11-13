@@ -133,4 +133,4 @@ export default {
 }
 </script>
 
-<style src="./todos.css"></style>
+<style></style>
